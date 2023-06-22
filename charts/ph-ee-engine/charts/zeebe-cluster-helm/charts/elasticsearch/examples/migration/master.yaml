@@ -4,7 +4,7 @@
 # one at a time whilst always keeping 3 masters running
 replicas: 1
 
-esMajorVersion: 6
+esMajorVersion: 8
 
 extraEnvs:
   - name: discovery.zen.ping.unicast.hosts

@@ -1,9 +1,9 @@
 {{- if .Values.podSecurityPolicy.enabled }}
-apiVersion: policy/v1beta1
+apiVersion: policy/v1
 kind: PodSecurityPolicy
 metadata:
   name: {{ template "kong.serviceAccountName" . }}-psp
-  labels:
+  labels:s
     {{- include "kong.metaLabels" . | nindent 4 }}
 spec:
 {{ .Values.podSecurityPolicy.spec | toYaml | indent 2 }}

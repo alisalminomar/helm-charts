@@ -5,7 +5,7 @@ replicas: 2
 clusterName: "elasticsearch"
 nodeGroup: "client"
 
-esMajorVersion: 6
+esMajorVersion: 8
 
 roles:
   master: "false"

@@ -2,7 +2,7 @@
 
 replicas: 2
 
-esMajorVersion: 6
+esMajorVersion: 8
 
 extraEnvs:
   - name: discovery.zen.ping.unicast.hosts

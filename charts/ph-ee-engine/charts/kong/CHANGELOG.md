@@ -148,7 +148,7 @@ detect whether you use the legacy CRD installation method automatically.
 * Improved support and documentation for installations that [lack
   cluster-scoped permissions](https://github.com/Kong/charts/blob/main/charts/kong/README.md#removing-cluster-scoped-permissions).
   ([565](https://github.com/Kong/charts/pull/565))
-* Updated podDisruptionBudget from `policy/v1beta1` to `policy/v1`.
+* Updated podDisruptionBudget from `policy/v1` to `policy/v1`.
   ([574](https://github.com/Kong/charts/pull/574))
 * Updated controller version to 2.3.
 
