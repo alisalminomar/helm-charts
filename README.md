@@ -1,1 +1,1 @@
-Repo to hold my helm charts
+Repo to hold my helm chart for the mifos payment hub.
