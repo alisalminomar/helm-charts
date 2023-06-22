@@ -1,0 +1,17 @@
+- name: Helm Chart Releaser
+  # You may pin to the exact commit or the version.
+  # uses: helm/chart-releaser-action@be16258da8010256c6e82849661221415f031968
+  uses: helm/chart-releaser-action@v1.5.0
+  with:
+    # The chart-releaser version to use (default: v1.5.0)
+    version: # optional, default is v1.5.0
+    # The relative path to the chart-releaser config file
+    config: # optional
+    # The charts directory
+    charts_dir: # optional, default is charts
+    # Where to install the cr tool
+    install_dir: # optional
+    # Just install cr tool
+    install_only: # optional
+    # skip the packaging option (do your custom packaging before running this action
+    skip_packaging: # optional
